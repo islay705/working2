@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>flexbox layout</title>
+    <link href="flexlayout.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="main">
+        <div class="bkRGBA">
+          <div class="charbox">
+            <div class="char-item">
+              <img
+                src="キャラクター/thumb-1.png"
+                width="230"
+                height="230"
+                alt=""
+              /><span>種島　ぽぷら</span>
+            </div>
+            <div class="char-item">
+              <img
+                src="キャラクター/thumb-2.png"
+                width="230"
+                height="230"
+                alt=""
+              /><span>伊波　まひる</span>
+            </div>
+            <div class="char-item">
+              <img
+                src="キャラクター/thumb-3.png"
+                width="230"
+                height="230"
+                alt=""
+              /><span>佐藤　潤</span>
+            </div>
+          </div>
+          <!-- charbox-->
+
+          <div class="charbox">
+            <div class="char-item">
+              <img
+                src="キャラクター/thumb-4.png"
+                width="230"
+                height="230"
+                alt=""
+              /><span>相馬 博臣</span>
+            </div>
+            <div class="char-item">
+              <img
+                src="キャラクター/thumb-5.png"
+                width="230"
+                height="230"
+                alt=""
+              /><span>山田 葵</span>
+            </div>
+            <div class="char-item">
+              <img
+                src="キャラクター/thumb-6.png"
+                width="230"
+                height="230"
+                alt=""
+              /><span>小鳥遊 宗太</span>
+            </div>
+          </div>
+          <!-- charbox-->
+        </div>
+      </div>
+      <!--main-->
+    </div>
+    <!-- Container-->
+
+    <script>
+      let contextmenu_function = () => {
+        event.preventDefault();
+      };
+
+      document.addEventListener("contextmenu", contextmenu_function);
+    </script>
+  </body>
+</html>
